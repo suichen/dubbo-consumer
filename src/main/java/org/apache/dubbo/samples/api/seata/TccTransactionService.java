@@ -14,13 +14,13 @@ import java.util.Map;
  *
  * @author zhangsen
  */
-//@Service
+@Service
 public class TccTransactionService {
 
-    //@DubboReference(version = "1.0.0")
+    @DubboReference(version = "1.0.0", check = false, lazy = true)
     private TccActionOne tccActionOne;
 
-    //@DubboReference(version = "1.0.0")
+    @DubboReference(version = "1.0.0", check = false, lazy = true)
     private TccActionTwo tccActionTwo;
 
     /**

@@ -41,11 +41,11 @@
 
     <!-- 第一个TCC参与者 服务订阅 -->
     <dubbo:reference id="tccActionOne" interface="org.apache.dubbo.samples.api.seata.TccActionOne" check="false"
-                     lazy="true"/>
+                     lazy="true" version="1.0.0"/>
 
     <!-- 第二个TCC参与者 服务订阅 -->
     <dubbo:reference id="tccActionTwo" interface="org.apache.dubbo.samples.api.seata.TccActionTwo" check="false"
-                     lazy="true"/>
+                     lazy="true" version="1.0.0"/>
 
 
 </beans>

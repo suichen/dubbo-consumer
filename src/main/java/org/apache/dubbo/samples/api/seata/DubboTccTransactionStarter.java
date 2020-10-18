@@ -43,7 +43,7 @@ public class DubboTccTransactionStarter {
         transactionCommitDemo();
 
         //分布式事务回滚demo
-        transactionRollbackDemo();
+        //transactionRollbackDemo();
 
         new ApplicationKeeper(applicationContext).keep();
     }
